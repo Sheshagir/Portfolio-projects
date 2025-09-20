@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #FAF9F6;
+      padding: 20px;
+    }
+    h1 {
+      color: #00416A;
+    }
+    a {
+      display: inline-block;
+      margin: 10px 0;
+      padding: 10px 20px;
+      background: #00416A;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    a:hover {
+      background: #00315a;
+    }
+    .backup-info {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome, Admin</h1>
+  <a href="/backup">Create Backup</a>
+  <a href="/admin/logout">Logout</a>
+
+  <div class="backup-info">
+    <p>Click "Create Backup" to generate a zip of the public folder.</p>
+  </div>
+</body>
+</html>
