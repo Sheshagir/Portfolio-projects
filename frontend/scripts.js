@@ -14,7 +14,7 @@ if (form) {
       statusMsg.innerText = "⚠️ Please fill in all required fields.";
       return;
     }
-
+    
     const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,}$/;
     if (!email.match(emailPattern)) {
       statusMsg.innerText = "⚠️ Please enter a valid email address.";
