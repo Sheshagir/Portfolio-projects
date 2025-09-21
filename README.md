@@ -30,14 +30,15 @@ node server.js
 Open in browser:
 Visit http://localhost:3000 to see the website locally.
 Project Structure
+
 portfolio-website/
 │
 ├── frontend/
 │   ├── index.html
 │   ├── about.html
 │   ├── projects.html
-    ├──skills.html
-    ├──Projects.htnl
+|    ├──skills.html
+|   ├──Projects.htnl
 │   ├── contact.html
 │   ├── css/
 │   └── js/
@@ -47,5 +48,6 @@ portfolio-website/
 │   └── package.json
 │
 └── README.md
+
 Contact
 You can reach me via the contact form on the website or email me at: your-email@example.co
